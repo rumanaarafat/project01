@@ -1,0 +1,534 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family:'Montserrat','Oswald'; 
+
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald','Montserrat';
+}
+a, a:hover{
+	text-decoration: none; 
+}
+
+.top-header {
+    width: 100%;
+    padding: 0px 0px 15px 20px;
+    background-color: #303030;
+}
+.header-section{
+	widows: 100%;
+	height: 100vh;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .navbar-wrapper {
+  width: 100%;
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  background:;
+
+}
+
+
+.header-section .top-header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 0px 10px;
+    text-align: right;
+}
+.header-section .top-header .navbar-expand-lg .navbar-nav .nav-link:hover,
+.header-section .top-header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	background: url("../images/line.png") bottom center no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 0px;
+}
+.banner{
+	width: 100%;
+}
+.inner-banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.inner-banner h1{
+	font-size: 90px;
+	line-height: 100px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 350px 0px 0px 0px;
+}
+.inner-banner p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	color: #fff;
+	margin: 10px 0px 0px 0px;
+}
+.inner-button{
+	width: 100%;
+	padding: 40px 0px 0px;
+}
+.inner-button .btn-primary{
+	padding: 15px 50px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: #e8631c;
+	border: 1px solid #e8631c;
+	border-radius: 0px;
+}
+.inner-button .btn-primary:hover,.inner-button .btn-primary:focus{
+	color: #fff;
+	background: transparent;
+}
+
+.tour-section{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+	background: url("../images/shape.png") center top no-repeat;
+	background-size: cover;
+}
+.tour-section h1{
+	font-size: 90px;
+	line-height: 100px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 55px 20px 0px;
+}
+.tour-section p{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	color: #fff;
+	margin: 10px 0px 20px 15px;
+}
+.tour-section .card-body .card-title{
+	font-size: 24px;
+	font-family: Oswald Bold;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 5px 0px;
+	color: #fff;
+}
+.tour-section .card-body .card-text{
+	font-size: 16px;
+	font-weight: 26px;
+	letter-spacing: 1px;
+	font-family: Montserrat;
+	color: #fff;
+}
+.tour-section .card-body {
+    flex: 1 1 auto;
+    padding: 0px;
+  	background: #303030;
+
+}
+.tour-section .card-img-top {
+    width: 100%;
+    padding: 0px 0px;
+    border: 0px solid #303030;
+
+}
+
+.tour-img{
+	width: 100%;
+	background: #303030;
+}
+
+
+.pricing-section{
+	width: 100%;
+	text-align: center;
+	padding: 40px 0px;
+	text-align: center;
+	background: url("../images/shape3.png") bottom no-repeat;
+	background-size: cover;
+	
+}
+.pricing-section .title{
+	font-size: 24px;
+	font-family: Oswald Bold;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 5px 0px;
+	color: #fff;
+}
+.pricing-section .title p{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	color: #fff;
+	margin: 10px 0px 0px 0px;
+}
+.pricing-section h1{
+	font-size: 90px;
+	line-height: 100px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 80px 0px 0px 0px;
+}
+.pricing-section p{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	color: #303030;
+	margin: 10px 0px 0px 0px;
+}
+.pricing-section .card-img, .card-img-top{
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  	background: #e8631c;
+
+}
+
+.pricing-section .card-boby{
+    width: 100%;
+    background: #303030;
+	border: 1px solid #303030;
+	border-radius: 0px;
+}
+.pricing-img {
+    background-color: #e8631c;
+    padding: 120px;
+}
+.pricing-section .inner-button .btn-primary{
+	padding: 15px 50px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #eee;
+	background: #303030;
+	border: 1px solid #303030;
+	border-radius: 0px;
+}
+.pricing-section .inner-button .btn-primary:hover, .pricing-section .inner-button .btn-primary:focus{
+	color: #303030;
+	background: transparent;
+}
+/*dance-section start here*/
+
+
+.dance-section{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: url("../images/dot3.png") center top no-repeat;
+	background-size: cover;
+}
+
+.dance-section .title h1{
+	width: 100%;
+	padding: 150px 180px 10px;
+	font-size: 100px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: right;
+	color: #fff;
+	
+}
+
+.dance-section p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fff;
+	padding: 0px 200px;
+}
+.dance-section .inner-button .btn-primary{
+	padding: 15px 50px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: #303030;
+	border: 1px solid #303030;
+	border-radius: 5px;
+	padding: 10px 50px ;
+}
+.dance-section .inner-button .btn-primary:hover, .dance-section .inner-button .btn-primary:focus{
+	color: #303030;
+	background: #fff;
+}
+/*dance-section end here*/
+
+/*best-section start here*/
+.best-section{
+	width: 100%;
+	text-align: right;
+	padding: 80px 0px;
+}
+.best-section{
+	width: 100%;
+	padding: 0px 0px;
+	text-align: center;
+	background: url("../images/lft.png") center top no-repeat;
+	background-size: cover;
+}
+.best-section .dance h1{
+	text-align: center;
+}
+
+
+.best-section h1{
+	width: 100%;
+	font-size: 90px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fff;
+	padding: 100px 40px 40px;
+}
+.best-section p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fff;
+	padding: 0px 200px;
+}
+.best-section .inner-button .btn-primary{
+	padding: 15px 50px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: #303030;
+	border: 1px solid #303030;
+	border-radius: 5px;
+	padding: 10px 50px ;
+}
+.best-section .inner-button .btn-primary:hover, .best-section .inner-button .btn-primary:focus{
+	color: #303030;
+	background: #fff;
+}
+/* statistic-section code start her*/
+.statistic-section{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+}
+.statistic-section{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: url("../images/shape3.png") center top no-repeat;
+	background-size: cover;
+}
+.statistic-section h1{
+	width: 100%;
+	font-size: 90px;
+	line-height: 100px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fff;
+	padding:0px 0px;
+}
+.statistic-section p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fff;
+	padding: 30px 20px ;
+}
+.fun-fact{
+	width: 100%;
+	padding:80px 0px ;
+}
+.inner-fun{
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+	border: 3px solid #e8631c;
+}
+.inner-fun .fa{
+	font-size: 80px;
+	font-weight: 300;
+	margin: 0px 0px 20px;
+	color: #e8631c;
+}
+.inner-fun h2{
+	font-size: 80px;
+	font-weight:300;
+	color: #fff;
+}
+.inner-fun h4{
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+/*-- simon-section css start here*/
+.simon-section{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: url("../images/bg1.png") center top no-repeat;
+	background-size: cover;
+}
+.col-lg-12-herbert{
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 550px 0px;
+}
+.simon-section p{
+	width: 100%;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+	padding:50px 0px; ;
+} 
+.simon-section h2{
+	width: 100%;
+	font-size: 80px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+}
+/*-- subscribe-section css start here*/
+.subscribe-section{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: url("../images/bg2.png") center top no-repeat;
+	background-size: cover;
+}
+.subscribe-section p{
+	width: 100%;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+	padding:50px 0px; 
+} 
+.subscribe-section h1{
+	width: 100%;
+	font-size: 80px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+}
+.subscribe-section .form-control{
+	width: 50%;
+	display:;
+}
+.subscribe .form-control{
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	padding: 15px 10px;
+	font-size: 14px;
+	color: #828e99;
+}
+.subscribe .form-control:focus{
+	box-shadow: 0 0 0 0rem #4e5c6c
+
+}
+.subscribe .btn-success{
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight: 700;
+	color: #eee;
+	border: 1px solid #00bc9c;
+	background:#00bc9c;
+	padding: 8px 10px;
+}
+
+.subscribe .btn-success:hover{
+	color: #00bc9c !important;
+	border: 1px solid #00bc9c !important;
+	background:transparent !important;
+	
+}
+.subscribe .btn-success:focus{
+	color: #00bc9c !important;
+	border: 1px solid #00bc9c !important;
+	background:transparent !important;
+	
+}
+.footer{
+	width: 100%;
+	background: url("../images/shape3.png") center top no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.widget-section{
+	width: 100%;
+	padding: 60px 0px;
+}
+.widget-inner{
+	width: 100%;	
+	padding: 0px 20px 0px 0px;
+}
+.widget ul{
+	padding: 0px;
+	margin: 15px 0px 0px;
+}
+.widget-inner ul li{
+	list-style: none;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0px 0px 5px ;
+	color:#fff ;
+	display: inline-block;
+    text-decoration: none;
+    padding: 0px;
+}
+.widget .subscribe{
+	width: 100%;
+	position:relative;
+}
+.widget .subscribe .form-control{
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	padding: 15px;
+	font-size: 14px;
+	color: #828e99;
+}
+.widget .subscribe .form-control:focus{
+	box-shadow: 0 0 0 0rem #4e5c6c
+
+}
